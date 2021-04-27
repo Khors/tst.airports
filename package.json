@@ -1,0 +1,31 @@
+{
+  "name": "airports.tst",
+  "version": "1.0.0",
+  "description": "Airports management tets work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitry Burkovsky",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.7",
+    "@types/express": "^4.17.8",
+    "@types/jsonwebtoken": "^8.5.0",
+    "aws-sdk": "^2.868.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fastest-validator": "^1.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.0",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "typeorm": "^0.2.28"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.0"
+  }
+}
