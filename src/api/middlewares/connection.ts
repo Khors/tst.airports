@@ -8,7 +8,7 @@ const options: ConnectionOptions = {
     password: process.env.DB_PASSWORD,
     database: process.env.DB_NAME,
     entities: [ 
-        __dirname + '/../entity/*.js'
+        __dirname + '/../entities/*.js'
     ],
     synchronize: Boolean(process.env.DB_SYNCHRONIZE),
     logging: Boolean(process.env.DB_LOGGING)
